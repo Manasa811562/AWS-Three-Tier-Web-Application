@@ -6,7 +6,7 @@ This project is a full-stack **3-tier web application** deployed on **AWS infras
 - **Backend**: Node.js REST API
 - **Database**: Aurora MySQL (Amazon RDS)
   
-## 🧱 Architecture Overview
+## Architecture Overview
 
  | Tier      | Technology                 | Details                                                           |
 |-----------|----------------------------|-------------------------------------------------------------------|
@@ -16,21 +16,21 @@ This project is a full-stack **3-tier web application** deployed on **AWS infras
 
 ---
  
-## 📸 Architecture Diagram
+## Architecture Diagram
 
 ![3TierArch](https://github.com/user-attachments/assets/1d727dfe-06ab-4c0f-b164-9c4013dc056a)
 
 
 
-## 💡 Features
+##  Features
 
-- ✅ Frontend: React app hosted on EC2 (via Nginx)
-- ✅ Backend: Node.js app on EC2 with API endpoints
-- ✅ Database: Aurora MySQL with secure backend connection
-- ✅ HTTPS enabled with AWS ACM
-- ✅ Custom domain via Route 53
-- ✅ Auto Scaling & Load Balancers for Web & App tiers
-- ✅ Security Groups & Private Subnets for isolation
+-  Frontend: React app hosted on EC2 (via Nginx)
+-  Backend: Node.js app on EC2 with API endpoints
+-  Database: Aurora MySQL with secure backend connection
+-  HTTPS enabled with AWS ACM
+-  Custom domain via Route 53
+-  Auto Scaling & Load Balancers for Web & App tiers
+-  Security Groups & Private Subnets for isolation
 
 ---
 
@@ -46,7 +46,7 @@ This project is a full-stack **3-tier web application** deployed on **AWS infras
 - VPC + Subnets + IGW + NAT Gateway
 - Security Groups + Key Pairs
 
-## 🧪 Application Flow
+## Application Flow
 
 1. **User visits** `https://manasportfolio.com` → lands on React frontend (Web Tier).
 2. Frontend **fetches project data** from the Node.js backend (App Tier).

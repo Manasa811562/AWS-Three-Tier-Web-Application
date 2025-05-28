@@ -15,6 +15,21 @@ This project is a full-stack **3-tier web application** deployed on **AWS infras
 | DB Tier   | Aurora MySQL (Amazon RDS)  | Hosted in private subnet, accessible only from App Tier           |
 
 ---
+
+## 📸 Screenshots
+
+### 🌐 Frontend – React App served via Nginx
+![React App](screenshots/react-app.png)
+
+### ⚙️ App Tier – Node.js API on EC2
+![Node.js App Tier](screenshots/node-api.png)
+
+### 🛢️ Database Tier – Aurora MySQL on Amazon RDS
+![Aurora MySQL](screenshots/aurora-db.png)
+
+### 🔒 HTTPS Secured via ACM & Route 53
+![HTTPS Setup](screenshots/https-secure.png)
+
  
 ## Architecture Diagram
 
